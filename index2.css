@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  /* HERO */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    margin-bottom: 40px;
+  }
+  
+  .hero-img img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #eee;
+  }
+  
+  .hero-text {
+    max-width: 600px;
+  }
+  
+  .hero-text h1 {
+    font-size: 32px;
+    color: #1e1e1e;
+  }
+  
+  .hero-text h1 span {
+    color: #007acc;
+  }
+  
+  .subtitle {
+    margin: 5px 0 15px;
+    font-weight: 500;
+    color: #666;
+  }
+  
+  .skills span {
+    display: inline-block;
+    background-color: #007acc;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px 5px 10px 0;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .socials img {
+    width: 28px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Sections */
+  .info-section {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .info-section h2 {
+    margin-bottom: 15px;
+    color: #1e1e1e;
+  }
+  
+  .modules {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .modules ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  /* Button */
+  .btn {
+    display: inline-block;
+    background-color: #007acc;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-img {
+      margin-bottom: 20px;
+    }
+  
+    .modules {
+      flex-direction: column;
+    }
+  
+    .socials {
+      justify-content: center;
+    }
+  }
+  
